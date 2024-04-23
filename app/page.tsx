@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Header } from "./components/header";
+import { Border } from "./components/border";
 import { Inter } from "next/font/google";
 import { useCallback, useState } from "react";
 import { ethers } from "ethers";
@@ -31,8 +32,6 @@ export default function Home() {
         const address = accounts[0];
         // Create an ethers.js provider using the injected provider from MetaMask
         const provider = new ethers.BrowserProvider(ethereum);
-        // Get the account balance
-        const balance = await provider.getBalance(address);
         // Get the network ID from MetaMask
         const network = await provider.getNetwork();
         // Update state with the results
@@ -106,6 +105,7 @@ export default function Home() {
           )}
         </div>
       </div>
+      <Border />
     </div>
   );
 }
