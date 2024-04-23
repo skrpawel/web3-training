@@ -4,28 +4,28 @@
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
-  "name": "Web3 Training App",
+  "name": "Train block",
   "short_name": "Tr3in",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/icon.webp",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/webp"
     },
     {
-      "src": "/icon-256x256.png",
+      "src": "/icon.webp",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/webp"
     },
     {
-      "src": "/icon-384x384.png",
+      "src": "/icon.webp",
       "sizes": "384x384",
-      "type": "image/png"
+      "type": "image/webp"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "/icon.webp",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/webp"
     }
   ]
 }
