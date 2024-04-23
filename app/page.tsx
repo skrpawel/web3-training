@@ -37,7 +37,6 @@ export default function Home() {
         // Update state with the results
         setAccountData({
           address,
-          balance: ethers.formatEther(balance),
           // The chainId property is a bigint, change to a string
           chainId: network.chainId.toString(),
           network: network.name,
